@@ -1,15 +1,9 @@
 package academy.learnprogramming.config.util;
 
-import academy.learnprogramming.config.model.TodoData;
-import org.springframework.web.bind.annotation.ModelAttribute;
-
 public final class Mappings {
 
     // == constants ==
-    @ModelAttribute
-    public TodoData todoData(){
-        return new TodoData();
-    }
+    public static final String ITEMS = "items";
 
 
     // == constructors ==
